@@ -1,0 +1,178 @@
+State FIPS,State,118th Congressional District,2017 NAICS Code,NAICS Description,Number of Establishments,Employment,Employment Noise Flag,"1st Quarter Payroll ($1,000)",1st Quarter Payroll Noise Flag,"Annual Payroll ($1,000)",Annual Payroll Noise Flag
+01,Alabama,01,11----,"Agriculture, forestry, fishing and hunting",132,937,G,10051,G,45283,G
+01,Alabama,01,21----,"Mining, quarrying, and oil and gas extraction",26,295,H,6001,G,23476,G
+01,Alabama,01,22----,Utilities,46,1383,G,45594,H,148906,H
+01,Alabama,01,23----,Construction,1533,17390,G,214351,G,965591,G
+01,Alabama,01,31----,Manufacturing,572,25471,G,438931,G,1858642,G
+01,Alabama,01,42----,Wholesale trade,851,10861,G,169503,G,713037,G
+01,Alabama,01,44----,Retail trade,2811,36422,G,274482,G,1167927,G
+01,Alabama,01,48----,Transportation and warehousing,692,12480,G,135710,G,590335,G
+01,Alabama,01,51----,Information,277,3221,G,48607,G,199425,G
+01,Alabama,01,52----,Finance and insurance,1115,7819,G,135439,G,647258,G
+01,Alabama,01,53----,Real estate and rental and leasing,978,4523,G,47522,G,225279,G
+01,Alabama,01,54----,"Professional, scientific, and technical services",1460,11760,G,186236,G,821485,G
+01,Alabama,01,55----,Management of companies and enterprises,90,3018,G,65778,G,323391,G
+01,Alabama,01,56----,Administrative and support and waste management,914,19422,H,166177,H,743880,H
+01,Alabama,01,61----,Educational services,146,4257,H,36737,H,157303,H
+01,Alabama,01,62----,Health care and social assistance,1471,31519,G,363453,G,1663733,G
+01,Alabama,01,71----,"Arts, entertainment, and recreation",226,2755,G,11953,G,61600,G
+01,Alabama,01,72----,Accommodation and food services,1516,29140,G,129118,G,613260,G
+01,Alabama,01,81----,Other services (except public administration),1753,10618,G,73560,G,318066,G
+01,Alabama,01,99----,Industries not classified,27,22,H,104,J,726,G
+01,Alabama,02,11----,"Agriculture, forestry, fishing and hunting",174,2255,G,25172,G,115958,G
+01,Alabama,02,21----,"Mining, quarrying, and oil and gas extraction",17,213,H,2815,H,12610,H
+01,Alabama,02,22----,Utilities,60,2660,G,95443,H,295468,H
+01,Alabama,02,23----,Construction,1130,9532,G,117635,G,540710,G
+01,Alabama,02,31----,Manufacturing,488,27215,G,317897,G,1357481,G
+01,Alabama,02,42----,Wholesale trade,622,10448,G,146149,G,613837,G
+01,Alabama,02,44----,Retail trade,2639,34026,G,245064,G,1044388,G
+01,Alabama,02,48----,Transportation and warehousing,495,12570,G,166513,H,683603,G
+01,Alabama,02,51----,Information,262,2241,H,28966,G,119703,G
+01,Alabama,02,52----,Finance and insurance,1044,6901,G,125183,G,485804,G
+01,Alabama,02,53----,Real estate and rental and leasing,649,2724,G,29406,G,128835,G
+01,Alabama,02,54----,"Professional, scientific, and technical services",1165,9544,G,134457,G,634069,G
+01,Alabama,02,55----,Management of companies and enterprises,68,1714,G,26587,G,133284,G
+01,Alabama,02,56----,Administrative and support and waste management,682,14373,G,100374,G,450938,G
+01,Alabama,02,61----,Educational services,149,3117,G,24254,G,103274,G
+01,Alabama,02,62----,Health care and social assistance,1499,34468,G,383367,G,1700143,G
+01,Alabama,02,71----,"Arts, entertainment, and recreation",183,2278,G,9262,G,45229,G
+01,Alabama,02,72----,Accommodation and food services,1470,26060,G,106505,G,464889,G
+01,Alabama,02,81----,Other services (except public administration),1619,9876,G,68688,G,301777,G
+01,Alabama,02,99----,Industries not classified,20,41,J,143,H,623,G
+01,Alabama,03,11----,"Agriculture, forestry, fishing and hunting",132,816,G,8205,G,34939,G
+01,Alabama,03,21----,"Mining, quarrying, and oil and gas extraction",18,517,H,9230,J,40352,J
+01,Alabama,03,22----,Utilities,63,897,J,26489,H,90710,H
+01,Alabama,03,23----,Construction,1035,8691,G,99228,G,460973,G
+01,Alabama,03,31----,Manufacturing,576,41657,G,529834,G,2217340,G
+01,Alabama,03,42----,Wholesale trade,421,5100,G,66065,G,284813,G
+01,Alabama,03,44----,Retail trade,2215,27401,G,195928,G,813028,G
+01,Alabama,03,48----,Transportation and warehousing,395,7256,G,72558,G,321250,G
+01,Alabama,03,51----,Information,203,1661,H,21893,H,94167,H
+01,Alabama,03,52----,Finance and insurance,792,4238,G,66474,G,264206,G
+01,Alabama,03,53----,Real estate and rental and leasing,531,1965,G,18923,G,82279,G
+01,Alabama,03,54----,"Professional, scientific, and technical services",850,4777,G,54710,G,234898,G
+01,Alabama,03,55----,Management of companies and enterprises,45,515,G,8549,G,37966,G
+01,Alabama,03,56----,Administrative and support and waste management,564,12025,G,75458,G,314958,G
+01,Alabama,03,61----,Educational services,84,2710,H,23015,H,92316,H
+01,Alabama,03,62----,Health care and social assistance,1198,24862,G,261546,G,1140235,G
+01,Alabama,03,71----,"Arts, entertainment, and recreation",115,1290,G,6375,G,32775,G
+01,Alabama,03,72----,Accommodation and food services,1252,21789,G,83423,G,370787,G
+01,Alabama,03,81----,Other services (except public administration),1418,7168,G,44401,G,194696,G
+01,Alabama,03,99----,Industries not classified,11,18,J,219,J,678,H
+01,Alabama,04,11----,"Agriculture, forestry, fishing and hunting",119,599,H,5537,G,23900,G
+01,Alabama,04,21----,"Mining, quarrying, and oil and gas extraction",38,585,H,7932,H,36906,G
+01,Alabama,04,22----,Utilities,46,1011,J,31275,J,99584,J
+01,Alabama,04,23----,Construction,1009,9574,G,108287,G,493464,G
+01,Alabama,04,31----,Manufacturing,793,54190,G,601578,G,2565738,G
+01,Alabama,04,42----,Wholesale trade,557,7944,G,97404,G,413371,G
+01,Alabama,04,44----,Retail trade,2615,31379,G,222229,G,952115,G
+01,Alabama,04,48----,Transportation and warehousing,504,7455,H,88148,H,403298,H
+01,Alabama,04,51----,Information,205,2148,H,32201,J,138044,J
+01,Alabama,04,52----,Finance and insurance,1016,6354,G,94104,G,374728,G
+01,Alabama,04,53----,Real estate and rental and leasing,460,1860,G,15092,G,68883,G
+01,Alabama,04,54----,"Professional, scientific, and technical services",896,4186,G,45801,G,199018,G
+01,Alabama,04,55----,Management of companies and enterprises,66,3024,H,57090,G,239837,G
+01,Alabama,04,56----,Administrative and support and waste management,469,11098,G,72720,G,306646,G
+01,Alabama,04,61----,Educational services,69,912,H,4517,G,18847,G
+01,Alabama,04,62----,Health care and social assistance,1621,32523,G,338081,G,1508654,G
+01,Alabama,04,71----,"Arts, entertainment, and recreation",144,1248,G,4891,G,23987,G
+01,Alabama,04,72----,Accommodation and food services,1195,20868,G,79328,G,356801,G
+01,Alabama,04,81----,Other services (except public administration),1475,7755,G,47956,G,211253,G
+01,Alabama,04,99----,Industries not classified,19,21,J,117,G,839,G
+01,Alabama,05,11----,"Agriculture, forestry, fishing and hunting",32,163,H,1459,H,6861,J
+01,Alabama,05,21----,"Mining, quarrying, and oil and gas extraction",19,233,H,3258,H,15497,H
+01,Alabama,05,22----,Utilities,9,148,J,4064,J,14981,J
+01,Alabama,05,23----,Construction,1174,13948,G,174972,G,843179,G
+01,Alabama,05,31----,Manufacturing,605,40243,G,645504,G,2702147,G
+01,Alabama,05,42----,Wholesale trade,628,8623,G,136958,G,597374,G
+01,Alabama,05,44----,Retail trade,2348,31991,G,242137,G,1052594,G
+01,Alabama,05,48----,Transportation and warehousing,346,7934,G,110717,H,493494,H
+01,Alabama,05,51----,Information,248,4788,G,79174,G,334973,G
+01,Alabama,05,52----,Finance and insurance,910,6390,H,127577,H,498648,H
+01,Alabama,05,53----,Real estate and rental and leasing,778,2693,G,30099,G,143474,G
+01,Alabama,05,54----,"Professional, scientific, and technical services",1855,50700,G,1186828,G,4949963,G
+01,Alabama,05,55----,Management of companies and enterprises,49,2065,G,50979,G,214856,G
+01,Alabama,05,56----,Administrative and support and waste management,737,12199,G,105335,G,469649,G
+01,Alabama,05,61----,Educational services,151,3516,H,33082,H,138190,H
+01,Alabama,05,62----,Health care and social assistance,1713,37537,H,423286,H,1985552,H
+01,Alabama,05,71----,"Arts, entertainment, and recreation",182,2758,G,11393,G,59235,G
+01,Alabama,05,72----,Accommodation and food services,1296,23446,G,99490,G,452763,G
+01,Alabama,05,81----,Other services (except public administration),1424,9716,G,64555,G,281775,G
+01,Alabama,05,99----,Industries not classified,14,14,J,58,H,236,G
+01,Alabama,06,11----,"Agriculture, forestry, fishing and hunting",45,551,H,8136,G,27146,G
+01,Alabama,06,21----,"Mining, quarrying, and oil and gas extraction",32,482,G,8805,H,32299,H
+01,Alabama,06,22----,Utilities,61,3087,J,148541,J,452157,J
+01,Alabama,06,23----,Construction,1543,20573,G,313249,G,1393054,G
+01,Alabama,06,31----,Manufacturing,518,16063,G,231219,G,987637,G
+01,Alabama,06,42----,Wholesale trade,1009,13282,G,262557,G,1133629,G
+01,Alabama,06,44----,Retail trade,2500,38038,G,291178,G,1265678,G
+01,Alabama,06,48----,Transportation and warehousing,414,6718,G,77450,G,350735,G
+01,Alabama,06,51----,Information,331,7223,G,153882,H,580479,H
+01,Alabama,06,52----,Finance and insurance,1333,23127,G,685713,G,2375957,G
+01,Alabama,06,53----,Real estate and rental and leasing,933,4744,G,120124,H,381616,G
+01,Alabama,06,54----,"Professional, scientific, and technical services",1865,13603,G,234127,G,1078675,G
+01,Alabama,06,55----,Management of companies and enterprises,145,7372,G,269681,G,901613,G
+01,Alabama,06,56----,Administrative and support and waste management,890,20747,G,201761,G,923722,G
+01,Alabama,06,61----,Educational services,184,1785,G,14362,G,63343,G
+01,Alabama,06,62----,Health care and social assistance,1744,35471,G,423646,G,1877702,G
+01,Alabama,06,71----,"Arts, entertainment, and recreation",254,4575,G,25202,G,121945,G
+01,Alabama,06,72----,Accommodation and food services,1363,26681,G,124910,G,568486,G
+01,Alabama,06,81----,Other services (except public administration),1719,15018,G,136116,G,605394,G
+01,Alabama,06,99----,Industries not classified,18,26,J,272,G,865,G
+01,Alabama,07,11----,"Agriculture, forestry, fishing and hunting",158,1227,G,16186,G,68275,G
+01,Alabama,07,21----,"Mining, quarrying, and oil and gas extraction",42,2545,G,70351,G,206933,G
+01,Alabama,07,22----,Utilities,64,4876,J,248078,J,607780,J
+01,Alabama,07,23----,Construction,1003,14545,G,201584,G,931047,G
+01,Alabama,07,31----,Manufacturing,586,51085,G,826819,G,3444690,G
+01,Alabama,07,42----,Wholesale trade,801,15685,G,230958,G,985350,G
+01,Alabama,07,44----,Retail trade,2527,29217,G,213464,G,905488,G
+01,Alabama,07,48----,Transportation and warehousing,670,17582,G,196525,G,856581,G
+01,Alabama,07,51----,Information,315,5022,G,83805,G,375248,G
+01,Alabama,07,52----,Finance and insurance,949,14045,H,404462,H,1372660,H
+01,Alabama,07,53----,Real estate and rental and leasing,607,5168,G,57548,G,251022,G
+01,Alabama,07,54----,"Professional, scientific, and technical services",1464,13175,G,241630,G,1090204,G
+01,Alabama,07,55----,Management of companies and enterprises,105,3792,H,87876,H,315768,H
+01,Alabama,07,56----,Administrative and support and waste management,654,19677,G,144211,G,625071,G
+01,Alabama,07,61----,Educational services,142,6269,H,50256,H,212278,G
+01,Alabama,07,62----,Health care and social assistance,1629,60209,H,878417,H,3941688,H
+01,Alabama,07,71----,"Arts, entertainment, and recreation",173,2205,H,11095,H,51104,H
+01,Alabama,07,72----,Accommodation and food services,1470,24197,G,103098,G,463804,G
+01,Alabama,07,81----,Other services (except public administration),1750,14022,G,121678,G,524207,G
+01,Alabama,07,99----,Industries not classified,20,21,J,134,G,772,G
+02,Alaska,00,11----,"Agriculture, forestry, fishing and hunting",500,563,J,7012,G,50780,G
+02,Alaska,00,21----,"Mining, quarrying, and oil and gas extraction",161,8769,G,303515,G,1219733,G
+02,Alaska,00,22----,Utilities,114,2345,G,58724,G,249382,G
+02,Alaska,00,23----,Construction,2580,15750,G,276623,G,1452675,G
+02,Alaska,00,31----,Manufacturing,564,10728,H,174849,H,729590,H
+02,Alaska,00,42----,Wholesale trade,722,8169,H,127549,G,548985,G
+02,Alaska,00,44----,Retail trade,2397,33449,G,282355,G,1241873,G
+02,Alaska,00,48----,Transportation and warehousing,1197,18165,G,370136,H,1618334,H
+02,Alaska,00,51----,Information,413,6334,H,116347,H,503024,H
+02,Alaska,00,52----,Finance and insurance,787,6971,G,170997,G,627219,G
+02,Alaska,00,53----,Real estate and rental and leasing,1092,4396,G,52593,G,247366,G
+02,Alaska,00,54----,"Professional, scientific, and technical services",1966,19304,G,344892,G,1566498,G
+02,Alaska,00,55----,Management of companies and enterprises,166,4523,G,207243,G,666468,H
+02,Alaska,00,56----,Administrative and support and waste management,1223,20157,G,241561,G,1058577,G
+02,Alaska,00,61----,Educational services,294,2695,G,21272,G,94092,G
+02,Alaska,00,62----,Health care and social assistance,2791,52488,G,801036,G,3487629,G
+02,Alaska,00,71----,"Arts, entertainment, and recreation",596,3671,G,18738,G,107254,G
+02,Alaska,00,72----,Accommodation and food services,2158,23404,G,142093,G,765828,G
+02,Alaska,00,81----,Other services (except public administration),1891,9180,G,90440,G,403053,G
+02,Alaska,00,99----,Industries not classified,29,32,J,221,G,1014,G
+04,Arizona,01,11----,"Agriculture, forestry, fishing and hunting",43,158,H,1587,G,8764,H
+04,Arizona,01,21----,"Mining, quarrying, and oil and gas extraction",15,188,G,2813,G,18273,G
+04,Arizona,01,22----,Utilities,28,990,G,36518,G,113970,G
+04,Arizona,01,23----,Construction,2280,34493,G,703662,H,2716297,G
+04,Arizona,01,31----,Manufacturing,569,15751,G,413375,H,2188457,H
+04,Arizona,01,42----,Wholesale trade,1250,13367,G,349204,H,1329477,H
+04,Arizona,01,44----,Retail trade,2983,48321,G,448459,G,1983639,G
+04,Arizona,01,48----,Transportation and warehousing,432,10376,H,126153,H,539675,H
+04,Arizona,01,51----,Information,627,15106,G,438580,G,1645387,G
+04,Arizona,01,52----,Finance and insurance,2891,47334,G,1735272,G,5362292,G
+04,Arizona,01,53----,Real estate and rental and leasing,3404,17220,G,320961,G,1388106,G
+04,Arizona,01,54----,"Professional, scientific, and technical services",5775,43784,G,914733,G,4214961,G
+04,Arizona,01,55----,Management of companies and enterprises,253,13894,H,540417,H,1662590,H
+04,Arizona,01,56----,Administrative and support and waste management,1860,34731,G,433831,G,1893245,G
+04,Arizona,01,61----,Educational services,530,10229,G,116249,G,524385,G
+04,Arizona,01,62----,Health care and social assistance,4344,68306,G,933955,H,4068137,H
+04,Arizona,01,71----,"Arts, entertainment, and recreation",583,12942,G,100223,G,458989,G
