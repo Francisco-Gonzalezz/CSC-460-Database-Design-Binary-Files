@@ -86,6 +86,49 @@ public class Prog1A {
     }
 }
 
+// TODO: Need to write the description of the class CSVRecord
+/*+----------------------------------------------------------------------
+ ||
+ ||  Class CSVRecord
+ ||
+ ||         Author:  Francisco Gonzalez
+ ||
+ ||        Purpose:  An object of this class holds the field values of one
+ ||                  record of data.  There are three fields:  State Code,
+ ||                  Place Code, and County Name.  These are motivated by
+ ||                  the Federal Information Processing System (FIPS)
+ ||                  geographic encoding system.
+ ||
+ ||  Inherits From:  None.
+ ||
+ ||     Interfaces:  None.
+ ||
+ |+-----------------------------------------------------------------------
+ ||
+ ||      Constants:  RECORD_LENGTH -- the # of bytes required to hold
+ ||                      the field values of a single record.  Because the
+ ||                      data is pre-supplied, we can pre-compute the total.
+ ||                  COUNTY_NAME_LENGTH -- Each county name in the data can
+ ||                      have a different length.  Again, as this is a sample
+ ||                      program with fixed data, we predefine the max length.
+ ||
+ |+-----------------------------------------------------------------------
+ ||
+ ||   Constructors:  Just the default constructor; no arguments.
+ ||
+ ||  Class Methods:  None.
+ ||
+ ||  Inst. Methods:     int getStateCode()
+ ||                     int getPlaceCode()
+ ||                  String getCountyName()
+ ||                    void setStateCode(int newCode)
+ ||                    void setPlaceCode(int newCode)
+ ||                    void setCountyName(String newName)
+ ||
+ ||                    void dumpObject(RandomAccessFile stream)
+ ||                    void fetchObject(RandomAccessFile stream)
+ ||
+ ++-----------------------------------------------------------------------*/
 class CSVRecord {
     private String state;
     private String naicsDescription;
