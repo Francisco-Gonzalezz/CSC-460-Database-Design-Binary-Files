@@ -1,5 +1,8 @@
-public class PersonalUtil {
+public final class PersonalUtil {
 
+    private PersonalUtil() {
+
+    }
 
     /**
      * This function returns true if the file passed into it through filepath paramaeter has

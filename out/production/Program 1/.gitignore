@@ -1,0 +1,11 @@
+*.bin
+*.csv
+*.class
+*.xml
+binaryIO.bin
+.idea/misc.xml
+out/production/Program 1/binaryIO.bin
+out/production/Program 1/CSVRecord.class
+out/production/Program 1/helper.txt
+out/production/Program 1/Prog1A.class
+out/production/Program 1/.idea/misc.xml

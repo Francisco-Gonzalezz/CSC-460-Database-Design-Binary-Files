@@ -1,0 +1,14 @@
+2
+7
+2
+6
+50
+1
+1
+1
+
+
+
+ODD: 5 6 7 8 9 10 11 -> The middle three would be 7 8 9..the middle value is 7 meaning we start at the middle index and go up two
+
+EVEN: 5 6 7 8 9 10 -> The middle four are 6 7 8 9... the middle value is 7 so go down one and then add 3
