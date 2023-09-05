@@ -28,9 +28,6 @@
  * 
  * Fields ( static )
  * --------------------------
- * - SUCCESSFULFILEEXTENSIONSPLIT (Integer) - This is the length of the String[] if there was
- *                                              a successful split on the filename
- *
  * - CSVFILEEXTENSION (String) - This field is the file extension that the program is expecting
  *                                  to read from.
  * 
@@ -67,7 +64,6 @@ import java.util.*;
 
 public class Prog1A {
 
-    private final static int SUCCESSFULFILEEXTENSIONSPLIT = 2;
     private final static String CSVFILEEXTENSION = "csv";
 
     private static String fileName; 
@@ -87,7 +83,7 @@ public class Prog1A {
             System.exit(1);
         }
         String filePath = args[0];
-        boolean isACSVFile = verifyFileIsCSV(filePath);
+        boolean isACSVFile = FileUtils.verifyExtensionIsCorrect(filePath, CSVFILEEXTENSION );
 
         if (!isACSVFile) {
             System.out.println("Please provide a .csv file");
@@ -149,28 +145,6 @@ public class Prog1A {
         }
 
 
-    }
-
-    /**
-     * Verifies if the file that is being read has the correct file extension, in this case
-     * that extension is csv. If the file has no extension then the program will exit and tell 
-     * the user that they must provide a csv file. 
-     * 
-     * @param filepath
-     * @return True if file extension is csv and false otherwise
-     */
-    private static boolean verifyFileIsCSV(String filepath) {
-        String[] filePathSplit = filepath.split("/");
-        String[] fileNameAndExtension = filePathSplit[filePathSplit.length - 1].split("\\.");
-        if (fileNameAndExtension.length < SUCCESSFULFILEEXTENSIONSPLIT) {
-            System.out.println("This file has no extension, ensure you are passing in a csv file");
-            System.exit(1);
-        }
-
-        fileName = fileNameAndExtension[0];
-        String extension = fileNameAndExtension[1];
-
-        return extension.equals(CSVFILEEXTENSION);
     }
 
     /**
