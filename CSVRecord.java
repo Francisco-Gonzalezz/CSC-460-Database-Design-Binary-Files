@@ -434,7 +434,7 @@ public class CSVRecord {
             record.setAnnualPayrollNoiseFlag(new String(annualNoiseFlag));
 
         } catch (IOException e) {
-            System.out.println("There was an error reading from the .bin file");
+            System.out.println("There was an error reading from the bin file");
             System.exit(-1);
         }
 
@@ -458,6 +458,10 @@ public class CSVRecord {
         return firstConcat.compareTo(secondConcat);
     }
 
+    /**
+     * Grabs the concatenation that matches input format from this CSVRecord object.
+     * @return Concatenation of State FIPS, Congressional District, and NAICS Code
+     */
     public String grabConcatentation() {
         return getStateFIPS() + getCongressionalDistrict() + getCodeNAICS();
     }

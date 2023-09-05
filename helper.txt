@@ -12,3 +12,12 @@
 ODD: 5 6 7 8 9 10 11 -> The middle three would be 7 8 9..the middle value is 7 meaning we start at the middle index and go up two
 
 EVEN: 5 6 7 8 9 10 -> The middle four are 6 7 8 9... the middle value is 7 so go down one and then add 3
+
+
+How CompareTo() works:
+----------------------
+Returns negative number if str1 is less than str2
+
+Returns zero if they are equal
+
+Returns positive number if str1 is greater than str2

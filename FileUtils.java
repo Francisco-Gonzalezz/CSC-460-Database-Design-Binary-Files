@@ -1,6 +1,14 @@
-public final class PersonalUtil {
+/**
+ * This Utils file is used in order to make dealing with files easy and less repetitive.
+ * 
+ * Methods
+ * -------
+ * 1) verifyExtensionIsCorrect( String filePath, String expectedExtension ): Returns true if extension matches what is wanted and false otherwise.
+ * 
+ */
+public final class FileUtils {
 
-    private PersonalUtil() {
+    private FileUtils () {
 
     }
 
@@ -22,8 +30,14 @@ public final class PersonalUtil {
         String filename = filePathSplit[filePathSplit.length - 1];
 
         String[] fileNameSplit = filename.split("\\.");
-
-        String actualExtension = fileNameSplit[1];
+        String actualExtension = "";
+        try { 
+            actualExtension = fileNameSplit[1];
+        } catch ( ArrayIndexOutOfBoundsException e ) {
+            System.out.println("Unable to verify that the extension to this file is correct");
+            System.exit(-1);
+        }
+        
 
         return actualExtension.equals(expectedExtension);
     }
