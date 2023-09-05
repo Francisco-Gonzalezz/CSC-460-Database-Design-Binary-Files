@@ -54,7 +54,7 @@
  * 
  *  In order to run this program follow these steps
  * ---------------------------------------------------
- *  1) Compile the program running javac Prog1A.java ( This should compile CSVRecord.java at the same time since there is a dependency there )
+ *  1) Compile the program running javac Prog1A.java ( This should compile CSVRecord.java and FileUtils.java at the same time since there is a dependency there )
  *  2) Run 'java Prog1A <csv file>'
  *  3) A binfile output will be produced in the directory of this program.
  * 
