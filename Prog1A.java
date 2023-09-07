@@ -84,6 +84,7 @@ public class Prog1A {
         }
         String filePath = args[0];
         boolean isACSVFile = FileUtils.verifyExtensionIsCorrect(filePath, CSVFILEEXTENSION );
+        fileName = FileUtils.getFileName(filePath);
 
         if (!isACSVFile) {
             System.out.println("Please provide a .csv file");

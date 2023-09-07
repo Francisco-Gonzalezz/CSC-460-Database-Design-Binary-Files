@@ -42,4 +42,30 @@ public final class FileUtils {
         return actualExtension.equals(expectedExtension);
     }
 
+    /**
+     * Extracts file name minus it's extension given a filepath. Assumes there are no forward slashs and the 
+     * environment that this program is being run is a UNIX-like environment.
+     * @param filepath
+     * @return String: File Name
+     */
+    public static String getFileName( String filepath ) {
+         // Split the string on forward slashes so we can extract the file from the path
+        String[] filePathSplit = filepath.split("/");
+
+        String file = filePathSplit[filePathSplit.length - 1];
+
+        String[] fileSplit = file.split("\\.");
+
+        String fileName = "";
+
+        try {
+            fileName = fileSplit[0];
+        } catch ( ArrayIndexOutOfBoundsException e ) {
+            System.out.println("Unable to extract file name from filepath");
+            System.exit(-1);
+        }
+
+        return fileName;
+    }
+
 }

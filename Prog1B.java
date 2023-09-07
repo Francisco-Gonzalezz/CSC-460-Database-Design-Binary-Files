@@ -49,7 +49,12 @@ import java.io.RandomAccessFile;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
+import java.util.Map.Entry;
 
 public class Prog1B {
 
@@ -200,7 +205,7 @@ public class Prog1B {
                 CSVRecord record = CSVRecord.fetchObject(binFile, stringFieldLengths, i * lengthOfRecord );
                 record.printRecordPartB();   
             }
-
+            printExtraInfo(binFile);
             return;
         }
 
@@ -244,10 +249,74 @@ public class Prog1B {
             endStart++;
         }
 
+        printExtraInfo(binFile);
+    }
+
+    /**
+     * This function prints the number of Records and creates a HashMap that contains all the states within the 
+     * bin file and their lowest number of employment.
+     * 
+     * After this hashmap is generated it will be passed into the printTenLowesetStates( Map<String, Integer> map ) function
+     * in order to extact the lowest employment states
+     */
+    private static void printExtraInfo( RandomAccessFile binFile ) {
         System.out.println("\nSome Extra Information\n----------------------");
         System.out.println("The total number of records is: " + numOfRecords );
 
-        // TODO: Get list of states as stated above.
+        getLowestEmployment(binFile);
+    }
+
+    private static void getLowestEmployment( RandomAccessFile binFile ) {
+        Map<String, Integer> employmentMap = new HashMap<>();
+
+        int recordNumber = 0;
+
+        while ( recordNumber < numOfRecords ) {
+            int byteIndex = recordNumber * lengthOfRecord;
+            CSVRecord record = CSVRecord.fetchObject(binFile, stringFieldLengths, byteIndex);
+            int employment = record.getEmployment();
+
+            // If map contains this state already check to see if we found a lower employment number
+            if ( employmentMap.containsKey( record.getState()) ) {
+                int currentValue = employmentMap.get( record.getState() );
+                if ( employment < currentValue ) {
+                    employmentMap.put( record.getState(), employment );
+                }
+            } else {
+                // This is the first time we have seen this state so place it into the map
+                employmentMap.put( record.getState(), employment );
+            }
+
+            recordNumber++;
+        }
+
+        // Now that we have a map with lowest employment of each state we can find the 10 states with the lowest employment.
+        printTenLowestStates(employmentMap);
+    }
+
+    /**
+     * Using Java streams this function will search through the Map that was passed in and find the lowest Entry within the map
+     * based off the value of the key. After this entry is found the key is removed from the Map and the the loop will start over.
+     * This will loop either 10 times if there are at least 10 states within the map or however many states that are contained within 
+     * the map.
+     * 
+     * Will build a string through each loop that will be printed out in the format of a list
+     * @param employmentMap
+     */
+    private static void printTenLowestStates( Map<String, Integer> employmentMap ) {
+        int i = 0;
+        int maxIndex = numOfRecords < 10 ? numOfRecords : 10;
+        StringBuilder sb = new StringBuilder("\nAscending List of Employment (Lowest Ten States):\n");
+
+        // Add the states with the lowest employment in order from least to most
+        while ( i < maxIndex && i < employmentMap.entrySet().size() ) {
+            Entry<String, Integer> smallestEntry = employmentMap.entrySet().stream().min(Comparator.comparingInt(Entry::getValue)).get();
+            sb.append((i + 1) + ") " + smallestEntry.getKey() + ": " + smallestEntry.getValue() + "\n");
+            employmentMap.remove(smallestEntry.getKey());
+            i++;
+        }
+
+        System.out.println(sb.toString());
     }
 
     /**
